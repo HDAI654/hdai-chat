@@ -1,0 +1,29 @@
+.chatBox {
+    background: #f8f9fa;
+    overflow-y: auto;
+    margin-bottom: 5%;
+  }
+  
+  .message {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    max-width: 40%;
+  }
+  
+  .user {
+    background: #d1e7dd;
+    text-align: right;
+    margin-left: auto;
+  }
+  
+  .other {
+    background: #f8d7da;
+    text-align: left;
+  }
+  
+@media (max-width: 768px) {
+    .message {
+      max-width: 100%;
+    }
+  }
